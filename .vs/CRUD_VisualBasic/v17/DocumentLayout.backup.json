@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|c:\\users\\marge\\onedrive\\escritorio\\gestor_de_clientes\\crud_visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|solutionrelative:crud_visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|c:\\users\\marge\\onedrive\\escritorio\\gestor_de_clientes\\crud_visualbasic\\admin task.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|solutionrelative:crud_visualbasic\\admin task.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|c:\\users\\marge\\onedrive\\escritorio\\gestor_de_clientes\\crud_visualbasic\\admin task.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|solutionrelative:crud_visualbasic\\admin task.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|c:\\users\\marge\\onedrive\\escritorio\\gestor_de_clientes\\crud_visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|solutionrelative:crud_visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80890159-0585-48A0-B2AE-ACC66DA344B2}|CRUD_VisualBasic\\CRUD_VisualBasic.vbproj|c:\\users\\marge\\onedrive\\escritorio\\gestor_de_clientes\\crud_visualbasic\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Admin Task.vb",
+              "DocumentMoniker": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Admin Task.vb",
+              "RelativeDocumentMoniker": "CRUD_VisualBasic\\Admin Task.vb",
+              "ToolTip": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Admin Task.vb",
+              "RelativeToolTip": "CRUD_VisualBasic\\Admin Task.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-23T05:20:46.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Admin Task.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Admin Task.vb",
               "RelativeDocumentMoniker": "CRUD_VisualBasic\\Admin Task.vb",
@@ -50,25 +67,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Form1.vb",
               "RelativeDocumentMoniker": "CRUD_VisualBasic\\Form1.vb",
-              "ToolTip": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Form1.vb*",
-              "RelativeToolTip": "CRUD_VisualBasic\\Form1.vb*",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxMAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Form1.vb",
+              "RelativeToolTip": "CRUD_VisualBasic\\Form1.vb",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-10-22T03:56:41.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Form1.vb",
               "RelativeDocumentMoniker": "CRUD_VisualBasic\\Form1.vb",
-              "ToolTip": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Form1.vb [Dise\u00F1o]*",
-              "RelativeToolTip": "CRUD_VisualBasic\\Form1.vb [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "CRUD_VisualBasic\\Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-10-19T19:54:20.538Z",
               "EditorCaption": " [Dise\u00F1o]"
