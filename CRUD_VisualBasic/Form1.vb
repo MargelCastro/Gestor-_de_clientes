@@ -23,10 +23,6 @@ Public Class Login
         Else
             MessageBox.Show("Verifique los datos ingresados nuevamente...")
         End If
-
-
-
-
     End Sub
 
 

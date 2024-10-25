@@ -68,6 +68,7 @@ Partial Class Login
         ' 
         txt_pass.Location = New Point(254, 320)
         txt_pass.Name = "txt_pass"
+        txt_pass.PasswordChar = "•"c
         txt_pass.PlaceholderText = "Contraseña"
         txt_pass.Size = New Size(200, 27)
         txt_pass.TabIndex = 3

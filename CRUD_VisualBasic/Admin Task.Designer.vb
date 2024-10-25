@@ -25,7 +25,6 @@ Partial Class Admin_Task
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Admin_Task))
         btn_buscar = New Button()
         btn_agregar = New Button()
-        btn_eliminar = New Button()
         Label4 = New Label()
         Label5 = New Label()
         Label6 = New Label()
@@ -43,9 +42,9 @@ Partial Class Admin_Task
         btn_buscar.Cursor = Cursors.Hand
         btn_buscar.Font = New Font("Impact", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btn_buscar.ForeColor = Color.RoyalBlue
-        btn_buscar.Location = New Point(48, 228)
+        btn_buscar.Location = New Point(50, 268)
         btn_buscar.Name = "btn_buscar"
-        btn_buscar.Size = New Size(307, 218)
+        btn_buscar.Size = New Size(480, 218)
         btn_buscar.TabIndex = 3
         btn_buscar.Text = "Buscar"
         btn_buscar.TextAlign = ContentAlignment.BottomCenter
@@ -58,35 +57,19 @@ Partial Class Admin_Task
         btn_agregar.Cursor = Cursors.Hand
         btn_agregar.Font = New Font("Impact", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btn_agregar.ForeColor = Color.MediumSeaGreen
-        btn_agregar.Location = New Point(384, 229)
+        btn_agregar.Location = New Point(559, 269)
         btn_agregar.Name = "btn_agregar"
-        btn_agregar.Size = New Size(305, 218)
+        btn_agregar.Size = New Size(445, 218)
         btn_agregar.TabIndex = 4
         btn_agregar.Text = "Agregar"
         btn_agregar.TextAlign = ContentAlignment.BottomCenter
         btn_agregar.UseVisualStyleBackColor = True
         ' 
-        ' btn_eliminar
-        ' 
-        btn_eliminar.BackColor = Color.White
-        btn_eliminar.BackgroundImage = CType(resources.GetObject("btn_eliminar.BackgroundImage"), Image)
-        btn_eliminar.BackgroundImageLayout = ImageLayout.Center
-        btn_eliminar.Cursor = Cursors.Hand
-        btn_eliminar.Font = New Font("Impact", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btn_eliminar.ForeColor = Color.Tomato
-        btn_eliminar.Location = New Point(707, 229)
-        btn_eliminar.Name = "btn_eliminar"
-        btn_eliminar.Size = New Size(307, 218)
-        btn_eliminar.TabIndex = 5
-        btn_eliminar.Text = "Eliminar"
-        btn_eliminar.TextAlign = ContentAlignment.BottomCenter
-        btn_eliminar.UseVisualStyleBackColor = False
-        ' 
         ' Label4
         ' 
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Century Gothic", 9F, FontStyle.Bold)
+        Label4.Font = New Font("Century Gothic", 9.0F, FontStyle.Bold)
         Label4.ForeColor = Color.RoyalBlue
         Label4.Location = New Point(61, 570)
         Label4.Name = "Label4"
@@ -97,7 +80,7 @@ Partial Class Admin_Task
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Font = New Font("Century Gothic", 9F, FontStyle.Bold)
+        Label5.Font = New Font("Century Gothic", 9.0F, FontStyle.Bold)
         Label5.ForeColor = Color.MediumSeaGreen
         Label5.Location = New Point(50, 592)
         Label5.Name = "Label5"
@@ -108,7 +91,7 @@ Partial Class Admin_Task
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Century Gothic", 9F, FontStyle.Bold)
+        Label6.Font = New Font("Century Gothic", 9.0F, FontStyle.Bold)
         Label6.ForeColor = Color.Tomato
         Label6.Location = New Point(52, 616)
         Label6.Name = "Label6"
@@ -158,7 +141,7 @@ Partial Class Admin_Task
         Label10.BackColor = Color.Transparent
         Label10.Font = New Font("Impact", 28.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label10.ForeColor = Color.RoyalBlue
-        Label10.Location = New Point(353, 97)
+        Label10.Location = New Point(348, 77)
         Label10.Name = "Label10"
         Label10.Size = New Size(398, 59)
         Label10.TabIndex = 14
@@ -177,7 +160,6 @@ Partial Class Admin_Task
         Controls.Add(Label6)
         Controls.Add(Label5)
         Controls.Add(Label4)
-        Controls.Add(btn_eliminar)
         Controls.Add(btn_agregar)
         Controls.Add(btn_buscar)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
@@ -192,7 +174,6 @@ Partial Class Admin_Task
     Friend WithEvents Label1 As Label
     Friend WithEvents btn_buscar As Button
     Friend WithEvents btn_agregar As Button
-    Friend WithEvents btn_eliminar As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
@@ -202,4 +183,8 @@ Partial Class Admin_Task
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
+
+    Private Sub Admin_Task_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

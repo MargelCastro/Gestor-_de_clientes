@@ -1,3 +1,3 @@
-﻿Public Class btn_guardarNW
+﻿Public Class Agregar_Cliente
 
 End Class

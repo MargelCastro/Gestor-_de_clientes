@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class btn_guardarNW
+Partial Class Agregar_Cliente
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -41,7 +41,7 @@ Partial Class btn_guardarNW
         Label1.AutoSize = True
         Label1.Font = New Font("Impact", 28.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.RoyalBlue
-        Label1.Location = New Point(117, 77)
+        Label1.Location = New Point(109, 77)
         Label1.Name = "Label1"
         Label1.Size = New Size(475, 59)
         Label1.TabIndex = 5
@@ -50,7 +50,7 @@ Partial Class btn_guardarNW
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(178, 211)
+        Label2.Location = New Point(170, 211)
         Label2.Name = "Label2"
         Label2.Size = New Size(67, 20)
         Label2.TabIndex = 6
@@ -59,7 +59,7 @@ Partial Class btn_guardarNW
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(178, 258)
+        Label3.Location = New Point(170, 258)
         Label3.Name = "Label3"
         Label3.Size = New Size(69, 20)
         Label3.TabIndex = 7
@@ -68,7 +68,7 @@ Partial Class btn_guardarNW
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(165, 308)
+        Label4.Location = New Point(157, 308)
         Label4.Name = "Label4"
         Label4.Size = New Size(82, 20)
         Label4.TabIndex = 8
@@ -77,7 +77,7 @@ Partial Class btn_guardarNW
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(165, 356)
+        Label5.Location = New Point(157, 356)
         Label5.Name = "Label5"
         Label5.Size = New Size(82, 20)
         Label5.TabIndex = 9
@@ -86,7 +86,7 @@ Partial Class btn_guardarNW
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Location = New Point(143, 407)
+        Label6.Location = New Point(135, 407)
         Label6.Name = "Label6"
         Label6.Size = New Size(104, 20)
         Label6.TabIndex = 10
@@ -94,35 +94,35 @@ Partial Class btn_guardarNW
         ' 
         ' txt_nombreSV
         ' 
-        txt_nombreSV.Location = New Point(265, 208)
+        txt_nombreSV.Location = New Point(257, 208)
         txt_nombreSV.Name = "txt_nombreSV"
         txt_nombreSV.Size = New Size(254, 27)
         txt_nombreSV.TabIndex = 11
         ' 
         ' txt_ApellidoSV
         ' 
-        txt_ApellidoSV.Location = New Point(265, 251)
+        txt_ApellidoSV.Location = New Point(257, 251)
         txt_ApellidoSV.Name = "txt_ApellidoSV"
         txt_ApellidoSV.Size = New Size(254, 27)
         txt_ApellidoSV.TabIndex = 12
         ' 
         ' txt_cedulaSV
         ' 
-        txt_cedulaSV.Location = New Point(265, 301)
+        txt_cedulaSV.Location = New Point(257, 301)
         txt_cedulaSV.Name = "txt_cedulaSV"
         txt_cedulaSV.Size = New Size(254, 27)
         txt_cedulaSV.TabIndex = 13
         ' 
         ' txt_CelularSV
         ' 
-        txt_CelularSV.Location = New Point(265, 349)
+        txt_CelularSV.Location = New Point(257, 349)
         txt_CelularSV.Name = "txt_CelularSV"
         txt_CelularSV.Size = New Size(254, 27)
         txt_CelularSV.TabIndex = 14
         ' 
         ' txt_DeudaSV
         ' 
-        txt_DeudaSV.Location = New Point(265, 400)
+        txt_DeudaSV.Location = New Point(257, 400)
         txt_DeudaSV.Name = "txt_DeudaSV"
         txt_DeudaSV.Size = New Size(254, 27)
         txt_DeudaSV.TabIndex = 15
@@ -134,14 +134,14 @@ Partial Class btn_guardarNW
         btn_GuardarSV.FlatStyle = FlatStyle.Flat
         btn_GuardarSV.Font = New Font("Impact", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btn_GuardarSV.ForeColor = Color.Transparent
-        btn_GuardarSV.Location = New Point(209, 507)
+        btn_GuardarSV.Location = New Point(201, 507)
         btn_GuardarSV.Name = "btn_GuardarSV"
         btn_GuardarSV.Size = New Size(294, 65)
         btn_GuardarSV.TabIndex = 16
         btn_GuardarSV.Text = "Guardar Cliente"
         btn_GuardarSV.UseVisualStyleBackColor = False
         ' 
-        ' btn_guardarNW
+        ' Agregar_Cliente
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
@@ -158,7 +158,7 @@ Partial Class btn_guardarNW
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
-        Name = "btn_guardarNW"
+        Name = "Agregar_Cliente"
         Text = "Agregar_Cliente"
         ResumeLayout(False)
         PerformLayout()

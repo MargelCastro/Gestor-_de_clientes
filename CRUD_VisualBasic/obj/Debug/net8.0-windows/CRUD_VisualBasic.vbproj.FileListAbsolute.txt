@@ -52,7 +52,6 @@ C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\CRUD_VisualBasic.dll
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\refint\CRUD_VisualBasic.dll
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\CRUD_VisualBasic.pdb
-C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\CRUD_VisualBasic.Admin_Task.resources
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\bin\Debug\net8.0-windows\CRUD_VisualBasic.exe
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\bin\Debug\net8.0-windows\CRUD_VisualBasic.deps.json
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\bin\Debug\net8.0-windows\CRUD_VisualBasic.runtimeconfig.json
@@ -68,3 +67,5 @@ C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\CRUD_VisualBasic.genruntimeconfig.cache
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\ref\CRUD_VisualBasic.dll
 C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\CRUD_VisualBasic.Agregar_Cliente.resources
+C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\CRUD_VisualBasic.Admin Task.resources
+C:\Users\marge\OneDrive\Escritorio\Gestor_de_clientes\CRUD_VisualBasic\obj\Debug\net8.0-windows\CRUD_VisualBasic.Buscar_Clientes.resources

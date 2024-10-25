@@ -23,4 +23,6 @@ VALUES
     ('Hans', 'chimpirilin', 'chimpirilin', GETDATE(), 1, GETDATE(), 1);
 go
 
-select * from Usuarios;
+--Tablas Faltantes:  Productos, 
+
+--select * from Usuarios;
