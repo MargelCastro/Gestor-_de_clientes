@@ -32,4 +32,9 @@
         btn_eliminar.BackColor = Color.White
         btn_eliminar.ForeColor = Color.Tomato
     End Sub
+
+    Private Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
+        Me.Hide()
+        Agregar_Cliente.ShowDialog()
+    End Sub
 End Class

@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="EL\**" />
+    <EmbeddedResource Remove="EL\**" />
+    <None Remove="EL\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
@@ -36,7 +42,6 @@
 
   <ItemGroup>
     <Folder Include="img\" />
-    <Folder Include="EL\" />
   </ItemGroup>
 
   <ItemGroup>
