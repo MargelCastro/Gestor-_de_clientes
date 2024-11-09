@@ -470,23 +470,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hans.blanco\\.nuget\\packages\\": {},
+    "C:\\Users\\marge\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hans.blanco\\Documents\\abc\\tareas\\Gestor_de_clientes\\CRUD_VisualBasic\\CRUD_VisualBasic.vbproj",
+      "projectUniqueName": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\CRUD_VisualBasic.vbproj",
       "projectName": "CRUD_VisualBasic",
-      "projectPath": "C:\\Users\\hans.blanco\\Documents\\abc\\tareas\\Gestor_de_clientes\\CRUD_VisualBasic\\CRUD_VisualBasic.vbproj",
-      "packagesPath": "C:\\Users\\hans.blanco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hans.blanco\\Documents\\abc\\tareas\\Gestor_de_clientes\\CRUD_VisualBasic\\obj\\",
+      "projectPath": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\CRUD_VisualBasic.vbproj",
+      "packagesPath": "C:\\Users\\marge\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marge\\OneDrive\\Escritorio\\Gestor_de_clientes\\CRUD_VisualBasic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hans.blanco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marge\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -495,6 +495,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

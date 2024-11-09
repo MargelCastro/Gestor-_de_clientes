@@ -37,6 +37,7 @@ Partial Class Buscar_Clientes
         Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
+        btn_agregar = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -185,11 +186,26 @@ Partial Class Buscar_Clientes
         Label2.TabIndex = 23
         Label2.Text = "Nombre:"
         ' 
+        ' btn_agregar
+        ' 
+        btn_agregar.BackColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
+        btn_agregar.Cursor = Cursors.Hand
+        btn_agregar.FlatStyle = FlatStyle.Flat
+        btn_agregar.Font = New Font("Impact", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btn_agregar.ForeColor = Color.Transparent
+        btn_agregar.Location = New Point(2, 649)
+        btn_agregar.Name = "btn_agregar"
+        btn_agregar.Size = New Size(1174, 65)
+        btn_agregar.TabIndex = 33
+        btn_agregar.Text = "Agregar nuevo cliente"
+        btn_agregar.UseVisualStyleBackColor = False
+        ' 
         ' Buscar_Clientes
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1176, 651)
+        ClientSize = New Size(1176, 715)
+        Controls.Add(btn_agregar)
         Controls.Add(txt_DeudaSV)
         Controls.Add(txt_CelularSV)
         Controls.Add(txt_cedulaSV)
@@ -205,6 +221,7 @@ Partial Class Buscar_Clientes
         Controls.Add(Button1)
         Controls.Add(btn_GuardarSV)
         Controls.Add(Label1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "Buscar_Clientes"
         Text = "Buscar_cliente"
         ResumeLayout(False)
@@ -226,4 +243,5 @@ Partial Class Buscar_Clientes
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents btn_agregar As Button
 End Class

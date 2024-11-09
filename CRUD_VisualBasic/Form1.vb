@@ -19,7 +19,7 @@ Public Class Login
 
         If lector.HasRows Then
             Me.Hide()
-            Admin_Task.ShowDialog()
+            Buscar_Clientes.ShowDialog()
         Else
             MessageBox.Show("Verifique los datos ingresados nuevamente...")
         End If
