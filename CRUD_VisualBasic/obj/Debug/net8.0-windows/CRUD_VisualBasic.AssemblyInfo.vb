@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("CRUD_VisualBasic"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9d49af8331792191d7216aa673d7ecfe5719db3"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be07841a0eeaab79b266497ed419d7fd26280088"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("CRUD_VisualBasic"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("CRUD_VisualBasic"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

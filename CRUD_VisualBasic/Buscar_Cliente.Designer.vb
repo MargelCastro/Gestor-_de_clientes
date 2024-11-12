@@ -223,6 +223,7 @@ Partial Class Buscar_Clientes
         Controls.Add(Label1)
         FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "Buscar_Clientes"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Buscar_cliente"
         ResumeLayout(False)
         PerformLayout()

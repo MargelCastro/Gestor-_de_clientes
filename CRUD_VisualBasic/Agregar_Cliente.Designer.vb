@@ -34,6 +34,9 @@ Partial Class Agregar_Cliente
         txt_CelularSV = New TextBox()
         txt_DeudaSV = New TextBox()
         btn_GuardarSV = New Button()
+        PictureBox1 = New PictureBox()
+        Label7 = New Label()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Label1
@@ -141,11 +144,35 @@ Partial Class Agregar_Cliente
         btn_GuardarSV.Text = "Guardar Cliente"
         btn_GuardarSV.UseVisualStyleBackColor = False
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.volver
+        PictureBox1.Location = New Point(522, 614)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(125, 62)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox1.TabIndex = 17
+        PictureBox1.TabStop = False
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.BackColor = Color.Transparent
+        Label7.Font = New Font("Cambria", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.ForeColor = Color.DimGray
+        Label7.Location = New Point(547, 679)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(78, 27)
+        Label7.TabIndex = 18
+        Label7.Text = "Volver"
+        ' 
         ' Agregar_Cliente
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(670, 710)
+        Controls.Add(Label7)
+        Controls.Add(PictureBox1)
         Controls.Add(btn_GuardarSV)
         Controls.Add(txt_DeudaSV)
         Controls.Add(txt_CelularSV)
@@ -158,8 +185,11 @@ Partial Class Agregar_Cliente
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        MinimizeBox = False
         Name = "Agregar_Cliente"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Agregar_Cliente"
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -176,4 +206,6 @@ Partial Class Agregar_Cliente
     Friend WithEvents txt_CelularSV As TextBox
     Friend WithEvents txt_DeudaSV As TextBox
     Friend WithEvents btn_GuardarSV As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label7 As Label
 End Class
