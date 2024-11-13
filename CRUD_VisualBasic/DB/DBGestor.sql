@@ -1,9 +1,9 @@
-use master
-go
-create database Gestor
-go
-use Gestor
-go
+USE master
+GO
+CREATE DATABASE Gestor
+GO
+USE Gestor
+GO
 CREATE TABLE usuario_de_aplicacion(
 	id INT PRIMARY KEY IDENTITY NOT NULL,
 	primer_nombre VARCHAR(200) NOT NULL,
@@ -39,12 +39,12 @@ GO
 
 -- Actualizar estos valores con el nuevo schema
 
--- INSERT INTO Usuarusuario_de_aplicacionios (Nombre, Loggin, Pass, FechaRegistro, IdUsuarioActualizacion, FechaActualizacion, Activo)
+-- INSERT INTO usuario_de_aplicacion(Nombre, Loggin, Pass, FechaRegistro, IdUsuarioActualizacion, FechaActualizacion, Activo)
 -- VALUES
 --     ('Margel', 'rekedomina', 'rekedomina', GETDATE(), 1, GETDATE(), 1),
 --     ('Josue', 'peludito', 'peludito', GETDATE(), 1, GETDATE(), 1),
 --     ('Hans', 'chimpirilin', 'chimpirilin', GETDATE(), 1, GETDATE(), 1);
--- go
+-- GO
 
 --Tablas Faltantes:  Productos, 
 
